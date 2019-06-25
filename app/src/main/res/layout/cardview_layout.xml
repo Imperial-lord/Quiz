@@ -1,0 +1,73 @@
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#000"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="8dp"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/wc1983"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How many runs did India make in its historic World Cup win over West Indies in 1983?"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:padding="8dp"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="374"
+            android:textSize="15sp"
+            android:fontFamily="monospace"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="175"
+            android:textSize="15sp"
+            android:fontFamily="monospace"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="183"
+            android:textSize="15sp"
+            android:fontFamily="monospace"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="259"
+            android:textSize="15sp"
+            android:fontFamily="monospace"
+            />
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+
+
+
